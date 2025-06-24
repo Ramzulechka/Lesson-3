@@ -558,6 +558,10 @@ video {
   margin: auto;
 }
 
+.mb-\[200px\] {
+  margin-bottom: 200px;
+}
+
 .ml-\[-260px\] {
   margin-left: -260px;
 }
@@ -566,36 +570,52 @@ video {
   margin-top: -10px;
 }
 
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
 .mt-\[10px\] {
   margin-top: 10px;
-}
-
-.mt-\[20px\] {
-  margin-top: 20px;
-}
-
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-
-.mt-\[40px\] {
-  margin-top: 40px;
-}
-
-.mt-\[px\] {
-  margin-top: px;
 }
 
 .mt-\[35px\] {
   margin-top: 35px;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
+.ml-\[-20px\] {
+  margin-left: -20px;
+}
+
+.ml-\[-30px\] {
+  margin-left: -30px;
+}
+
+.ml-\[-50px\] {
+  margin-left: -50px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
 }
 
 .flex {
   display: flex;
+}
+
+.h-\[1200px\] {
+  height: 1200px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[500px\] {
+  height: 500px;
 }
 
 .h-\[590px\] {
@@ -606,28 +626,32 @@ video {
   height: 780px;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-\[200px\] {
+  height: 200px;
 }
 
-.h-\[1000px\] {
-  height: 1000px;
+.h-\[100px\] {
+  height: 100px;
 }
 
-.h-\[1200px\] {
-  height: 1200px;
+.h-\[50px\] {
+  height: 50px;
 }
 
-.h-\[1400px\] {
-  height: 1400px;
+.h-\[400px\] {
+  height: 400px;
 }
 
-.h-\[1300px\] {
-  height: 1300px;
+.w-\[110px\] {
+  width: 110px;
 }
 
 .w-\[120px\] {
   width: 120px;
+}
+
+.w-\[150px\] {
+  width: 150px;
 }
 
 .w-\[20px\] {
@@ -638,8 +662,16 @@ video {
   width: 300px;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .w-\[400px\] {
   width: 400px;
+}
+
+.w-\[430px\] {
+  width: 430px;
 }
 
 .w-\[450px\] {
@@ -654,8 +686,28 @@ video {
   width: 700px;
 }
 
+.w-\[70px\] {
+  width: 70px;
+}
+
 .w-\[200px\] {
   width: 200px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[270px\] {
+  width: 270px;
+}
+
+.w-\[280px\] {
+  width: 280px;
 }
 
 .max-w-\[1080px\] {
@@ -666,8 +718,16 @@ video {
   max-width: 1356px;
 }
 
+.max-w-\[1070px\] {
+  max-width: 1070px;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -682,6 +742,14 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .gap-\[10px\] {
   gap: 10px;
 }
@@ -690,12 +758,52 @@ video {
   gap: 160px;
 }
 
+.gap-\[200px\] {
+  gap: 200px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[220px\] {
+  gap: 220px;
+}
+
 .gap-\[30px\] {
   gap: 30px;
 }
 
-.gap-\[100px\] {
-  gap: 100px;
+.gap-\[120px\] {
+  gap: 120px;
+}
+
+.gap-\[150px\] {
+  gap: 150px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[70px\] {
+  gap: 70px;
+}
+
+.gap-\[90px\] {
+  gap: 90px;
+}
+
+.gap-\[80px\] {
+  gap: 80px;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
 }
 
 .rounded-\[20px\] {
@@ -714,6 +822,10 @@ video {
   border-radius: 0px;
 }
 
+.rounded-\[100\%\] {
+  border-radius: 100%;
+}
+
 .border-\[1px\] {
   border-width: 1px;
 }
@@ -730,6 +842,19 @@ video {
 .border-\[\#D5DAE1\] {
   --tw-border-opacity: 1;
   border-color: rgb(213 218 225 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[\#0000000D\] {
+  border-color: #0000000D;
+}
+
+.bg-\[\#1C232D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 35 45 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#22C55E\] {
@@ -759,12 +884,24 @@ video {
   padding: 10px;
 }
 
+.p-\[30px\] {
+  padding: 30px;
+}
+
 .p-\[5px\] {
   padding: 5px;
 }
 
 .p-\[7px\] {
   padding: 7px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.p-\[\] {
+  padding: ;
 }
 
 .pt-\[10px\] {
@@ -783,12 +920,20 @@ video {
   text-align: center;
 }
 
+.font-\[verdana\] {
+  font-family: verdana;
+}
+
 .text-\[10px\] {
   font-size: 10px;
 }
 
 .text-\[13px\] {
   font-size: 13px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .text-\[25px\] {
@@ -848,6 +993,15 @@ video {
 .text-\[\#F0FDF4\] {
   --tw-text-opacity: 1;
   color: rgb(240 253 244 / var(--tw-text-opacity, 1));
+}
+
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .shadow-2xl {
